@@ -15,14 +15,14 @@ class AddedUserTest extends TestCase
      *
      * @return void
      */
-    protected function setUp(): void
-    {
-        parent::setUp();
+    // protected function setUp(): void
+    // {
+    //     parent::setUp();
 
-        // Authenticate a user
-        $user = User::where('name','Manager') -> first();
-        $this->actingAs($user);
-    }
+    //     // Authenticate a user
+    //     $user = User::where('name','Manager') -> first();
+    //     $this->actingAs($user);
+    // }
 
     /**
      * A basic feature test example.
